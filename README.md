@@ -1,85 +1,88 @@
-SupplyTrack Platform
+# SupplyTrack Platform
 
-Plataforma empresarial para la gestión de solicitudes de abastecimiento mediante microservicios y arquitectura orientada a eventos.
+## Plataforma empresarial para la gestión de solicitudes de abastecimiento mediante microservicios y arquitectura orientada a eventos.
 
-Objetivos del proyecto
+### Objetivos del proyecto
 
-Registrar solicitudes de abastecimiento.
+1. Registrar solicitudes de abastecimiento.
 
-Validar solicitudes de manera asíncrona.
+2. Validar solicitudes de manera asíncrona.
 
-Mantener la trazabilidad de las operaciones.
+3. Mantener la trazabilidad de las operaciones.
 
-Garantizar la consistencia de los datos.
+4. Garantizar la consistencia de los datos.
 
-Gestionar errores y reintentos.
+5. Gestionar errores y reintentos.**
 
-Automatizar las pruebas y los despliegues.
+6. Automatizar las pruebas y los despliegues.
 
-Stack tecnológico
+7. Stack tecnológico
 
-Categoría
+8. Categoría
 
-Tecnología
+---
 
-Backend
+### Tecnología
 
-NestJS, Node.js y TypeScript
+**Backend**
 
-Frontend
+- NestJS, Node.js y TypeScript
 
-React y TypeScript
+**Frontend**
 
-Base de datos
+- React y TypeScript
 
-MySQL
+**Base de datos**
 
-Mensajería
+- MySQL
 
-RabbitMQ
+**Mensajería**
 
-Infraestructura
+- RabbitMQ
 
-Docker y Docker Compose
+**Infraestructura**
 
-CI/CD
+- Docker y Docker Compose
 
-Jenkins y GitHub Actions
+- CI/CD
 
-Control de versiones
+- Jenkins y GitHub Actions
 
-Git y GitHub
+**Control de versiones**
 
-Entorno de desarrollo
+- Git y GitHub
 
-Ubuntu (WSL2)
+**Entorno de desarrollo**
 
-Arquitecturas
+- Ubuntu (WSL2)
 
-Arquitectura hexagonal (Hexagonal Architecture).
+**Arquitecturas**
 
-Arquitectura limpia (Clean Architecture).
+- Arquitectura hexagonal (Hexagonal Architecture).
 
-Arquitectura de microservicios (Microservices Architecture).
+- Arquitectura limpia (Clean Architecture).
 
-Arquitectura orientada a eventos (Event-Driven Architecture).
+- Arquitectura de microservicios (Microservices Architecture).
 
-Buenas prácticas
+- Arquitectura orientada a eventos (Event-Driven Architecture).
 
-Principios SOLID.
+**Buenas prácticas**
 
-Separación de responsabilidades.
+- Principios SOLID.
 
-Inyección de dependencias.
+- Separación de responsabilidades.
 
-Manejo de excepciones.
+- Inyección de dependencias.
 
-Idempotencia.
+- Manejo de excepciones.
 
-Pruebas unitarias y de integración.
+- Idempotencia.
 
-Documentación mediante diagramas UML.
+- Pruebas unitarias y de integración.
 
-Estado del proyecto
+- Documentación mediante diagramas UML.
 
-Actualmente en desarrollo.
+---
+### Estado del proyecto
+
+- Actualmente en desarrollo.
