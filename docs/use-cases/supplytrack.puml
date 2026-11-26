@@ -1,0 +1,28 @@
+@startuml
+
+left to right direction
+
+actor "Empleado de sucursal" as Employee
+actor "Administrador de almacén" as Admin
+
+rectangle SupplyTrack {
+
+    usecase "Registrar solicitud" as CU01
+    usecase "Consultar sus solicitudes" as CU02
+    usecase "Consultar estado" as CU03
+    usecase "Consultar todas las solicitudes" as CU04
+    usecase "Consultar solicitudes rechazadas" as CU05
+    usecase "Consultar historial de auditoría" as CU06
+
+}
+
+Employee -- CU01
+Employee -- CU02
+Employee -- CU03
+
+Admin -- CU03
+Admin -- CU04
+Admin -- CU05
+Admin -- CU06
+
+@enduml
